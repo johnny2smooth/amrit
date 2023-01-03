@@ -1,12 +1,17 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
+import '../styles/global.css'
+import Navigation from '../components/Navigation.astro';
+const pageTitle = "Hello, Amrit"
 ---
 
-<Layout title="Hello, Amrit">
+<Layout title={pageTitle}>
 	<main>
 		<h1>Happy Birthday <span class="text-gradient">Amrit</span> 🎉 !!</h1>
-		<Card title="Open your gift" body="I think you're going to like it 😌" href="/blog" />
+		<Card title="Open your gift" body="I think you're going to like it 😌" href="/posts/post-1" />
+		<Card title="post 2" body="testing 😌" href="/posts/post-2" />
+		<Card title="post 3" body="testing again 😌" href="/posts/post-2" />
 	</main>
 </Layout>
 
