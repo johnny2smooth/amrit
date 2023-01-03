@@ -1,0 +1,16 @@
+---
+import Layout from "./Layout.astro";
+
+const {frontmatter} = Astro.props;
+---
+
+<Layout title="hola">
+  <h1 class="text-2xl py-4 font-light">{frontmatter.title} <span class="text-sm font-normal text-slate-600">by {frontmatter.author}</span></h1>
+    <img src={frontmatter.image.src} alt={frontmatter.image.alt} class="grayscale" />
+    <div class="flex justify-end">
+      <p class="py-2 text-sm font-normal text-slate-600">{frontmatter.description}</p>
+
+    </div>
+  <slot />
+
+</Layout>
