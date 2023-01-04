@@ -16,3 +16,5 @@ Well, this is one of your presents.
 ### This has been a bunch of fun.
 
 Let's see it. It looks great! But it can be further improved. Let's add some more content to it.
+
+![pink room](/images/pink.jpg)
