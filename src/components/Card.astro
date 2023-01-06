@@ -1,21 +1,18 @@
 ---
 export interface Props {
 	title: string;
-	body: string;
+	src: string;
 	href: string;
 }
 
-const { href, title, body } = Astro.props;
+const { href, title, src } = Astro.props;
 ---
 
 <li class="link-card">
-	<a href={href}>
-		<h2>
-			{title}
-			<span>&rarr;</span>
-		</h2>
+	<a href={href} class="max-w-xs">
+		<img src={src} alt={title} />
 		<p>
-			{body}
+			{title} <span>&rarr;</span>
 		</p>
 	</a>
 </li>
@@ -23,9 +20,9 @@ const { href, title, body } = Astro.props;
 	.link-card {
 		list-style: none;
 		display: flex;
+		justify-content: center;
 		padding: 0.15rem;
 		background-color: white;
-		background-image: var(--accent-gradient);
 		background-size: 400%;
 		border-radius: 0.5rem;
 		background-position: 100%;
@@ -56,7 +53,7 @@ const { href, title, body } = Astro.props;
 	.link-card:is(:hover, :focus-within) {
 		background-position: 0;
 	}
-	.link-card:is(:hover, :focus-within) h2 {
+	.link-card:is(:hover, :focus-within) p {
 		color: rgb(var(--accent));
 	}
 </style>

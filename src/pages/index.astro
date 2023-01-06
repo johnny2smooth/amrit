@@ -2,13 +2,12 @@
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 import '../styles/global.css'
-import Navigation from '../components/Navigation.astro';
 const pageTitle = "Hello, Amrit"
 ---
 
 <Layout title={pageTitle}>
 	<main class="py-4">
-			<Card title="Open your gift" body="I think you're going to like it 😌" href="/writing/birthday-wish" />
+			<Card title="Click to open your present" href="/writing/birthday-wish" src="/images/flower.svg" />
 	</main>
 </Layout>
 

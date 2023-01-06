@@ -9,12 +9,17 @@ image:
 tags: ["writing", "birthday", "friendship", "love"]
 ---
 
-## ¡Feliz cumpleaños, Amrit!
+## ¡Feliz cumpleaños, Amrit
 
-Well, this is one of your presents.
+I am so happy to be sharing today with you. I know how much your birthday means to you, and I am so glad that I get to be a part of it for three years in a row! I know that you don't want anything besides a nice note, so here is the note (with an extra special Johnny touch on it). Instead of being composed with paper and a pen like usual, I wanted to write this one in code. Although it is only a note right now, I want this to become a place where many more notes are written. My gift to you is a note that will grow with you.
 
-### This has been a bunch of fun.
+### This will take a while to perfect
 
-Let's see it. It looks great! But it can be further improved. Let's add some more content to it.
+And I want to get your input on how to make it better. Let me know what you like, and what you don't like. We can go from here.
+
+```css
+For now, 
+just know that I love you.
+```
 
 ![pink room](/images/pink.jpg)
