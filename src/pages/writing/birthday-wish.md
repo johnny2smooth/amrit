@@ -18,8 +18,8 @@ I am so happy to be sharing today with you. I know how much your birthday means 
 And I want to get your input on how to make it better. Let me know what you like, and what you don't like. We can go from here.
 
 ```css
-For now, 
-just know that I love you.
+Happy birthday, Amrit.
+You are so loved.
 ```
 
 ![pink room](/images/pink.jpg)

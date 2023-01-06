@@ -16,5 +16,6 @@ const {frontmatter} = Astro.props;
     <article class="prose">
       <slot  />
     </article>
+    <span class="text-sm font-normal text-slate-600">by {frontmatter.author}</span>
 
 </Layout>
