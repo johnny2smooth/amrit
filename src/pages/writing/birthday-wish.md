@@ -7,6 +7,7 @@ image:
     src: '/images/blurry.jpg' 
     alt: 'amrit in a blur'
 tags: ["writing", "birthday", "friendship", "love"]
+createdOn: '2023-01-08'
 ---
 
 ## ¡Feliz cumpleaños, Amrit
@@ -23,3 +24,7 @@ You are so loved.
 ```
 
 ![pink room](/images/pink.jpg)
+
+Look at how cute she is! Wowza. That looks like a real shmookums right there.
+
+
